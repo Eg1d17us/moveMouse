@@ -27,7 +27,7 @@ while time_remaining > 0:
     pyautogui.moveTo(x=122, y=907, duration=0.5)
 
     # Update remaining time and print it
-    time_remaining -= 5
+    time_remaining -= 10
     remaining_time = round(time_remaining)
     remaining_minutes, remaining_seconds = divmod(remaining_time, 60)
     print("Remaining time: {:02d}:{:02d}".format(remaining_minutes, remaining_seconds))
