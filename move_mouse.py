@@ -25,6 +25,7 @@ while time_remaining > 0:
 
     # Move cursor to bottom-left corner
     pyautogui.moveTo(x=122, y=907, duration=0.5)
+    pyautogui.click()
 
     # Update remaining time and print it
     time_remaining -= 10
