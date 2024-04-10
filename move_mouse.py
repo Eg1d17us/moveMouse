@@ -19,7 +19,7 @@ while time_remaining > 0:
     pyautogui.moveTo(spotify_button, duration=0.5)
     pyautogui.click(spotify_button)
     time.sleep(0.5)
-    minimize_button = pyautogui.locateOnScreen("./images/minimize.png", confidence=0.9)
+    minimize_button = pyautogui.locateOnScreen("./images/minimize.png", confidence=0.8)
     pyautogui.moveTo(minimize_button, duration=0.5)
     pyautogui.click(minimize_button)
 
