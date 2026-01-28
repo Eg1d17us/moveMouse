@@ -15,13 +15,6 @@ while time_remaining > 0:
 
     # Move cursor to bottom-right corner
     pyautogui.moveTo(x=1765, y=946, duration=0.5)
-    spotify_button = pyautogui.locateOnScreen("./images/spotify.png", confidence=0.9)
-    pyautogui.moveTo(spotify_button, duration=0.5)
-    pyautogui.click(spotify_button)
-    time.sleep(0.5)
-    minimize_button = pyautogui.locateOnScreen("./images/minimize.png", confidence=0.8)
-    pyautogui.moveTo(minimize_button, duration=0.5)
-    pyautogui.click(minimize_button)
 
     # Move cursor to bottom-left corner
     pyautogui.moveTo(x=122, y=907, duration=0.5)
